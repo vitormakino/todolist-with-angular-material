@@ -1,9 +1,11 @@
-# TodolistWithAngularMaterial [![Build Status](https://travis-ci.org/vitormakino/todolist-with-angular-material.svg?branch=master)]
-(https://travis-ci.org/vitormakino/todolist-with-angular-material.svg)
+# TodolistWithAngularMaterial 
+[![Build Status](https://travis-ci.org/vitormakino/todolist-with-angular-material.svg?branch=master)](https://travis-ci.org/vitormakino/todolist-with-angular-material)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/vitormakino/todolist-with-angular-material.svg)](https://greenkeeper.io/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+
+You can visit https://todolist-with-angular-material.firebaseapp.com/ to view this application.
 
 ## Development server
 
