@@ -1,4 +1,5 @@
-# TodolistWithAngularMaterial
+# TodolistWithAngularMaterial [![Build Status](https://travis-ci.org/vitormakino/todolist-with-angular-material.svg?branch=master)]
+(https://travis-ci.org/vitormakino/todolist-with-angular-material.svg)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/vitormakino/todolist-with-angular-material.svg)](https://greenkeeper.io/)
 
