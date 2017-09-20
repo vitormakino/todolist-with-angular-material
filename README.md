@@ -1,5 +1,7 @@
 # TodolistWithAngularMaterial
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vitormakino/todolist-with-angular-material.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
 ## Development server
