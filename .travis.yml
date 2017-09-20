@@ -25,7 +25,10 @@ before_script: # commands to run before the build step
 
 script: # the build step
    - ng test --watch false
-   - ng build --prod && angular-cli-ghpages 
+   - ng build --prod
+
+after_success:
+  - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" && angular-cli-ghpages --no-silent
 
 notifications:
   email: # only receive email when the build status changes (someone broke the build!) 
