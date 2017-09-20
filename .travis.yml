@@ -1,12 +1,28 @@
-language: node_js
-
-node_js:
+sudo: required  
+dist: trusty  
+language: node_js  
+node_js:  
    - node # will use latest node
+
+addons:
+apt:
+  sources:
+    - google-chrome
+  packages:
+    - google-chrome-stable
+    - google-chrome-beta
+
+before_install:  
+ - export CHROME_BIN=/usr/bin/google-chrome
+ - export DISPLAY=:99.0
+ - sh -e /etc/init.d/xvfb start
 
 before_script: # commands to run before the build step
    - npm install -g --silent @angular/cli
+   - npm install
 
 script: # the build step
+   - ng test --watch false
    - ng build --prod
 
 notifications:
