@@ -6,7 +6,11 @@ import {
   MdIconModule,
   MdButtonModule,
   MdMenuModule,
-  MdCardModule
+  MdCardModule,
+  MdFormFieldModule,
+  MdInputModule,
+  MdCheckboxModule,
+  MdListModule
 } from '@angular/material';
 
 @NgModule({
@@ -18,7 +22,11 @@ import {
     MdIconModule,
     MdButtonModule,
     MdMenuModule,
-    MdCardModule
+    MdCardModule,
+    MdFormFieldModule,
+    MdInputModule,
+    MdCheckboxModule,
+    MdListModule
   ]
 })
 export class AppMaterialModule { }
